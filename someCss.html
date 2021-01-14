@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="anExternal.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Redressed&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Yeon+Sung&display=swap');
+        h1 {
+          color:#6495ED;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #p1 {
+          color:#DEB887;
+          font-size: 30px;
+          font-family: 'East Sea Dokdo', cursive;
+        }
+        #p2 {
+          color:#483D8B;
+          font-size: 30px;
+          font-family: 'Redressed', cursive;
+        }
+        #p3 {
+          color: #2F4F4F;
+          font-size:30px;
+          font-family: 'Yeon Sung', cursive;
+          border-style: dotted;
+        }
+        #img {
+          height: 50px;
+          width: 50px;
+        }
+        #img-margin {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-right: 20px;
+          margin-left: 20px;
+        }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+        #large-img {
+          height: 800px;
+          width: 800px;
+        }
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+        .top-right {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+        }
+        .bottom-right {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      </style>
+    <title>Some CSS Page</title>
+  </head>
+  <body>
+    <h1>Exploring CSS</h1>
+  </body>
+  <p id="p1">My name is <strong>Sandy</strong>. This is paragraph 1.</p>
+  <p id="p2">I am a junior at <strong><em>University of Washington</em></strong>. This is paragraph 2.</p>
+  <img id="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-dog-quotes-1580508958.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*"
+  class="center">
+  <br>
+  <img id="img" src="https://i.pinimg.com/564x/7f/03/ed/7f03ede8a2b6341ccc42f205c36479b7.jpg"
+  class="center">
+  <br>
+  <hr>
+  <p id="p3">This image has 20px margins on each side.</p>
+  <img id="img-margin" src="https://lh3.googleusercontent.com/proxy/VBU_844Yh53-NgK0a9g3vII-qqVjwu5UyStqS2XzgRMOTzB2GLgXU9tTJhZcjqvLroU9dfbjuU5v3F9LEleLg21-ZXYr">
+  <p id="p4">Some random text here.</p>
+  <p id="rcorners">Rounded corners!</p>
+  <div class="container">
+    <img id="large-img" src="https://www.wallpaperup.com/uploads/wallpapers/2014/08/04/416608/807ef13e829c2efed361f6aadffe2ae0-700.jpg" alt="scenery" style="width:100%;">
+    <div class="bottom-left">Bottom Left</div>
+    <div class="top-left">Top Left</div>
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Bottom Right</div>
+    <div class="centered">Centered</div>
+</div>
+</html>
